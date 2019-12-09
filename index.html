@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="index.css" rel="stylesheet">
+        <link href="headerandfooter.css" rel="stylesheet">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+<!--------------------------------------------------HEADER----------------------------------------------------------------------->
+<header>
+    <div id="menu">
+        <div><a href="gallery/gallery.html">Gallery</a></div>
+        <div><a href="location/map.html">Location</a></div>
+        <div><a href="index.html"><img class="logo" src="bg/logo.png"  alt="Partnershoto" /></a></div>
+        <div><a href="Competitors/Competitors.html">Competitors</a></div>
+        <div><a href="videos/viseos.html">Videos</a></div>
+    </div>
+</header>
+<!-------------------------------------------------СОДЕРЖИМОЕ-------------------------------------------------------------------------->
+<section id="section">
+    <div id="putcards">
+        <div class="putcard">
+          <div class="box">
+                <div class="imgBx">
+                    <img class="c" src="news/1.jpg">
+                    <h2>Кто мы такие?</h2>
+                    <p>Мы являемся молодой компанией в сфере образования, мы считаем это огромным плюсом, так как можем расти и развиваться вместе с Вами. Нам это действительно нравится!</p>         
+                </div>
+            </div>
+        </div>  
+        
+        <div class="putcard">
+            <div class="box">
+                <div class="imgBx">
+                    <img class="c" src="news/2.jpg">
+                    <h2>Изучай React онлайн</h2>
+                    <p>Учить React онлайн с частными уроками - легко и доступно. Учитесь у практикующих преподавателей работающих в ИТ компаниях</p>         
+                </div>
+            </div>
+        </div> 
+  
+        <div class="putcard">
+            <div class="box">
+                <div class="imgBx">
+                    <img class="c" src="news/3.jpg">
+                    <h2>Вместе</h2>
+                    <p>Так как мы сами начинаем, мы предлагаем тебе войти в историю как одному из первых студентов! Давай сделаем это вместе.</p>         
+                </div>
+            </div>
+        </div> 
+    </div>
+<!------------ЦЕНЫ------------------>
+    <div class="cost">
+        <div class="cost-title">
+            <h2>Цены на курсы</h2>
+            <p>Деньги потраченные на обучение <br>компенсируются с первой зарплаты</br></p>
+        </div>
+        <div class="cards">
+        <div class="card1">
+            <div class="card11">Войти в ИТ</div>
+            <div class="card12">Подойдет если вы очень хотите, но не сталкивались с ИТ</div>
+            <div class="card13">$250</div>
+            <div class="card14">Бесплатное первое занятия</div>
+            <div class="card15">Личный ментор на время курса</div>
+            <div class="card16">Погружение в философию ИТ</div>
+            <div><a id="butc" href="#openModal">Хочу!</a></div>
+        </div>
+        <div class="card2">
+              <div class="card21">Front-end</div>
+              <div class="card22">Подойдет если вы знакомы с концепцией ИТ и понимаете что такое back-end и front-end</div>
+              <div class="card23">$300</div>
+              <div class="card24">Бесплатное первое занятия</div>
+              <div class="card25">Личный ментор на время курса</div>
+              <div class="card26">Погружение в философию ИТ</div>
+              <div><a id="butc" href="#openModal">Еще больше хочу</a></div>
+        </div>
+        <div class="card3">
+              <div class="card31">Попробовать свои силы</div>
+              <div class="card32">Если вы не уверены нужно ли Вам это</div>
+              <div class="card33">БЕСПЛАТНО</div>
+              <div class="card34">Если вы не понимаете, боитесь, мы вам все объясним и покажем! Наша цель не напугать Вас умными терминами и отбить желание, а показать что существует и другой мир, мир ИТ</div>
+              <div><a id="butc" href="#openModal">Го, я ничего не теряю</a></div>
+        </div>
+        <div id="openModal" class="modalDialog">
+            <div>
+                <a href="#close" title="Закрыть" class="close">X</a>
+                <h2>Записатся</h2>
+                <p>+375 29 231 09 86</p>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+        var headerBg = document.getElementById('putcards')
+        window.addEventListener('scroll',function(){
+            headerBg.style.opacity = 1 - +window.pageYOffset/700+''
+            headerBg.style.top = +window.pageYOffset+'px'
+        } )
+        </script>
+</section>
+<!-------------------------------------------------FUTER------------------------------------------------------------------------->
+    <div id="futer">
+            <div class="footer-social">
+                    <div class="socseti">Подпишитесь на нас в соцсетях:</div>
+                      <div class="allsocseti">
+                        <p>
+                          <div><a href="https://vk.com/gutsu_d"><img class="vk" src="socicon/vk.png"></a></div>
+                          <div><a href="https://www.instagram.com/dgutzu/"><img class="inst" src="socicon/inst.png"></a></div>
+                          <div><a href="https://www.youtube.com/channel/UC0hNjmMMypJ9Dw0NoiquFbQ?view_as=subscriber"><img class="youtube" src="socicon/youtube.png"></a></div>
+                          <div><a href="https://t.me/RedevGDS"><img class="telegram" src="socicon/telegram.png"></a></div>
+                        </p>
+                      </div>
+                      <div class="autor">Redev © 2019</div>
+                    </div>
+    </div>
+    </body>
+</html>

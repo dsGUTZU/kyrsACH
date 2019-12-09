@@ -1,0 +1,15 @@
+
+/*--------------------------section-----------------------------------*/
+section{
+    padding: 25px;
+    color: #fff;
+    background-image: url(bg/bg.jpg);
+    height: 400px;
+}
+.map{
+    text-align: center;
+}
+a{
+    color: white;
+    
+}

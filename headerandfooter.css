@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+     
+}
+/*------------------header-----------------------*/
+header{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+header #menu{
+   width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 35px;
+    font-family: "TopMeny";
+    
+}
+.logo{
+    height: 50px;
+}
+a{
+    text-decoration: none; 
+   
+}
+a:visited{
+    color: white;
+}
+
+
+/*------------------------------futer-------------------------------*/
+#futer{
+    background-image: url(bg/footer.png);
+    height: 155px;
+}
+
+.socseti{
+    text-align: center;
+    padding-top: 55px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vk{
+    height: 41px;
+    width: 41px;
+}
+.inst{
+    height: 41px;
+    width: 41px;
+}
+.telegram{
+    height: 41px;
+    width: 41px;
+
+}
+.youtube{
+    height: 41px;
+    width: 41px;
+  
+}
+.allsocseti{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+.autor{
+    color: white;
+    text-align: center;
+}
+@font-face{
+
+    font-family: 'MyWebFont';
+    src: url('fonts/webfonts/molot_regular_macroman/Molot-webfont.eot');
+    src: url('fonts/webfonts/molot_regular_macroman/Molot-webfont.eot?iefix') format('eot'),
+    url('fonts/webfonts/molot_regular_macroman/Molot-webfont.woff') format('woff'),
+    url('fonts/webfonts/molot_regular_macroman/Molot-webfont.ttf') format('truetype'),
+    url('fonts/webfonts/molot_regular_macroman/Molot-webfont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face{
+
+        font-family: 'TopMeny';
+        src: url('fonts/webfonts/helsinki_regular_macroman/helsinki-webfont.eot');
+        src: url('fonts/webfonts/helsinki_regular_macroman/helsinki-webfont.eot?iefix') format('eot'),
+        url('fonts/webfonts/helsinki_regular_macroman/helsinki-webfont.woff') format('woff'),
+        url('fonts/webfonts/helsinki_regular_macroman/helsinki-webfont.ttf') format('truetype'),
+        url('fonts/webfonts/helsinki_regular_macroman/helsinki-webfont.svg#webfont') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        }
